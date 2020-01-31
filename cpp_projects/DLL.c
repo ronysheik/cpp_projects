@@ -23,6 +23,7 @@ struct node
 struct node *head = NULL;
 struct node* tail = NULL;
 struct node* curr = NULL;
+
 struct node* getnewnode(struct node* h, int val);
 void insert(int val);
 void delete(int val);
